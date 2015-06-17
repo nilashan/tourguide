@@ -1,0 +1,44 @@
+
+	  
+	  
+        <table width="279" height="477" bgcolor="#FFFF99">
+          <tr><td height="40" colspan="2" bgcolor="#003300"> <div align="center"><font color="#003300" size="5">Vacationer   Registation</font></div></td></tr>
+          <tr><td width="271"> <p>Name </p><p> <input type="text" name="name" size="45"></p></td></tr>
+          <tr><td width="271"> <p>Email</p><p>   <input type="text" name="email" size="45"></p></td></tr>
+          <tr><td width="271"> <p>Address</p><p>   <input type="text" name="address" size="45"></p></td></tr>
+          <tr><td width="271">
+			<fieldset><p align="left">   <a href="http://www.latlong.net/convert-address-to-lat-long.html" target="_blank">   <font color="#FF0000">Click Here</font> </a>! To get the latitute &amp; longitute </p></fieldset>
+			 <p>Latitute </p> <input type="text" name="lat" size="45">
+				 </td></tr>
+          <tr><td width="271"> <p>Longitute</p><p>   <input type="text" name="lan" size="45"></p></td></tr>
+          <tr><td width="271"> <p>Choose your username </p><p>   <input type="text" name="username" size="45"></p></td></tr>
+          <tr><td><p>Create a password </p><p>   <input name="pass" type="password" size="45"></p></td></tr>
+          <tr><td><p>Conform your password </p><p>   <input name="repass" type="password" size="45"></p></td></tr>
+          <tr><td align="right"> <input name="reset" type="reset" value="Reset"/> <input name="submit" type="submit" value="Submit"/> </td></tr>
+        </table>
+		
+		
+		
+			 <div class="reg_section personal_info">
+      <h3>Create New User</h3>
+	  <input type="text" name="fname" placeholder="First Name">  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	  <input type="text" name="lname" placeholder="Last Name">
+	  <input type="text" name="username" placeholder="User Name"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+	  <input type="password" name="password" placeholder="Password">
+      <input type="text" name="reg_no" placeholder="Registration No">  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	  <input type="text" name="nic" placeholder="NIC No">
+	  <input type="text" name="age" placeholder="Age">  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	   <select>
+	    <option value="">-Sex-</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+	  <input type="text" name="contact_no" placeholder="Contact No"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	   <input type="text" name="year" placeholder="Year of Study">
+		<p class="terms">
+		<p class="button">
+		<input type="button" value="Create New User" onclick="location.href='../home/home.html'" >
+		</p>
+	  </p>
+    
+  </div>
